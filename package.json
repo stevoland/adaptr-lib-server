@@ -1,0 +1,29 @@
+{
+  "name": "adaptr-lib-server",
+  "version": "0.0.0",
+  "author": "Stephen J. Collings <stevoland@gmail.com>",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevoland/adaptr-lib-server"
+  },
+  "bugs": {
+    "url": "https://github.com/nodejitsu/stevoland/adaptr-lib-server/issues"
+  },
+  "dependencies": {
+    "object-assign": "^2.0.0",
+    "debug": "^2.1.0",
+    "interpolate": "^0.1.0",
+    "cookie": "^0.1.2",
+    "browserify": "^7.0.0",
+    "adaptr-lib-client": "*",
+    "adaptr-profile": "*"
+  },
+  "devDependencies": {
+    "eslint": "^0.10.0"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": "1.2.x"
+  }
+}
